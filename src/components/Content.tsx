@@ -3,6 +3,8 @@ import { MovieCard } from '../components/MovieCard'
 
 import { api } from '../services/api'
 
+import '../styles/content.scss';
+
 import {MovieProps, GenreResponseProps} from '../interfaces'
 
 interface ContentProps {

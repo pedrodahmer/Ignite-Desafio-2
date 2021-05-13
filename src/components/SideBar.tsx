@@ -3,6 +3,8 @@ import { Button } from '../components/Button'
 
 import { api } from '../services/api'
 
+import '../styles/sidebar.scss';
+
 import { GenreResponseProps, SideBarProps } from '../interfaces'
 
 export function SideBar({GenreId, ClickFunction}: SideBarProps) {
